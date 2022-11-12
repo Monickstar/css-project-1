@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+div{
+    background-color: white;
+    margin-left: 20px;
+}
+
+h1{
+font-size: 18px;
+}
+
+section{
+    margin-top: 15px;
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+
+.one{
+color: green;
+border-bottom: 1px solid green;
+}
+
+.two{
+color: red;
+border-bottom: 1px solid red;
+}
+
+.three{
+color: blue;
+border-bottom: 1px solid blue;
+}
+
+table{
+    width: 1300px;
+    margin: left;
+    height: 150px;
+    border: 1px solid blue;
+   
+}
+
+th{
+   padding: 8px;
+   text-align: center;
+}
+
+td{
+    padding-left: 8px;
+}
+
+tr:hover{
+    background-color: wheat;
+}
+
+table, th,tr,td {
+    border-collapse: separate;
+
+}
